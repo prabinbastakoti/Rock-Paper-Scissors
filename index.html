@@ -8,13 +8,12 @@
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/stone.png" type="image/icon type">
-    <!-- <script src="index.js" defer></script> -->
     <script src="script.js" defer></script>
 </head>
 
 <body>
     <main>
-        <div class="result">Pick Your Choice</div>
+        <div class="pick">Pick Your Choice</div>
 
         <div class="choice">
             <img src="images/stone.png" alt="Rock" id="rock">
@@ -22,11 +21,11 @@
             <img src="images/paper.png" alt="Paper" id="paper">
         </div>
 
-        <div class="result">You win! Rock smashes Scissors.</div>
+        <div class="result">Rock, Paper, Scissors? </div>
         
         <div class="scores">
-            <div class="userScore">User Score: <span>0</span></div>
-            <div class="computerScore">Computer Score: <span>0</span></div>
+            <div class="userScore">User Score: <span id="userScore"></span></div>
+            <div class="computerScore">Computer Score: <span id="computerScore"></span></div>
         </div>
 
 

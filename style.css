@@ -18,6 +18,7 @@ body {
 
 
 main {
+    min-height: 50vh;
     font-size: 36px;
     font-family: 'Caveat', cursive;
     flex: 1;
@@ -27,9 +28,24 @@ main {
     flex-direction: column;
 }
 
+main .pick {
+    font-size: 60px;
+}
+
+
 hr {
     background-color: #323232;
     height: 1px;
+}
+
+
+.result a {
+    text-decoration: none;
+    color: #323232bb;
+}
+
+.result a:hover {
+    color: #323232;
 }
 
 main .choice {
@@ -40,6 +56,7 @@ main .choice {
 }
 
 main .choice img {
+    box-sizing: border-box;
     height: 250px;
     width: 250px;
 }
@@ -52,73 +69,6 @@ main .scores {
     justify-content: space-evenly;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer {
